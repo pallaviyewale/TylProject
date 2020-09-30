@@ -33,4 +33,4 @@ Then Invalid User Should not be logged in
 
 Examples: 
 | username       | password     | 
-| invalis_user   | secret_sauce | 
+| invalis_user   | secret_sauce |

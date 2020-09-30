@@ -9,7 +9,7 @@ public class Base
 
 	public WebDriver openBrowser()
 	{
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\yewal\\Desktop\\Selenium Java\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		if(driver==null)
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
