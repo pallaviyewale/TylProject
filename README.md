@@ -17,7 +17,7 @@ src-
 		
 	helperMethods -
 	
-		Hooks with Dependency Injections ro share Objects
+		Hooks with Dependency Injections to share Objects
 		
 	pageObjects -
 	
@@ -37,7 +37,7 @@ src-
 		- TestCheckoutTheProducts.feature - Checkout the products functionality scenarios
 		 
 pom.xml -
-		Dependencies - cucumber-java, cucumber-junit, selenium-java, selenium-server, cucumber-picocontainer
+		Dependencies - cucumber-java, junit, cucumber-junit, selenium-java, selenium-server, cucumber-picocontainer
 
 
 To run the Scenarios -
