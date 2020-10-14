@@ -7,20 +7,18 @@ import io.cucumber.java.Before;
 
 public class MySharedObjects
 {
-	//public static WebDriver driver;
-	
 	Base baseObject;
 
-	@Before("@LoginTests,@SortingTests")
+	@Before("@LoginTests,@SortingTests,@AddProductsToBasketTests,@CheckoutProductsFromBasketTests")
 	public WebDriver setUp()
 	{
 		baseObject = new Base();
 		return baseObject.openBrowser();
 	}
 	
-	@After("@LoginTests,@SortingTests")
+	@After("@LoginTests,@SortingTests,@AddProductsToBasketTests,@CheckoutProductsFromBasketTests")
 	public void tearDown()
 	{
-		baseObject.openBrowser();
+		baseObject.closeBrowser();
 	}
 }
